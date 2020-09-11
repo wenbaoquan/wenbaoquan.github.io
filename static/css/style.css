@@ -1,0 +1,107 @@
+.title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.sub-title {
+    text-transform: uppercase;
+}
+
+.color-red {
+    color: #ff6363;
+}
+
+.color-blue {
+    color: #404c69;
+}
+
+.color-gray {
+    color: #ccc;
+}
+
+header right .content span {
+    border-left: 4px solid #ff6363;
+    margin-right: 15px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+header right .content span img {
+    height: 16px;
+    vertical-align: middle;
+    margin: 0px 5px;
+}
+
+.size-1 {
+    font-size: 24px;
+}
+
+.size-2 {
+    font-size: 18px;
+}
+
+.size-3 {
+    font-size: 14px;
+}
+
+container left p {
+    margin-bottom: 10px;
+}
+
+container left .block {
+    margin: 10px 0px 20px;
+}
+
+container left .block .content {
+    border-left: 1px solid #ff6363;
+    margin: 10px 0px;
+    padding-left: 10px;
+}
+
+container left .block .content .mark {
+    position: relative;
+}
+
+container left .block .content .mark::before {
+    content: '';
+    position: absolute;
+    left: -14px;
+    top: calc(50% - 4px);
+    vertical-align: middle;
+    border: 4px solid #ff6363;
+    border-radius: 4px;
+    width: 0px;
+    height: 0px;
+    display: inline-block;
+}
+
+container right .block {
+    margin-bottom: 50px;
+}
+
+container right .block .sub-title {
+    font-size: 20px;
+    color: #ff6363;
+    margin-left: 10px;
+}
+
+.progress {
+    display: inline-block;
+    height: 5px;
+    width: 132px;
+    background-color: #a8a9ac;
+    position: relative;
+}
+
+.progress .active {
+    display: inline-block;
+    height: 5px;
+    background-color: #ff6363;
+    position: absolute;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
